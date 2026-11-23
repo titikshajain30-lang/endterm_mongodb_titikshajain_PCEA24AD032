@@ -1,0 +1,37 @@
+db.employees.insertMany([
+  { empId: 1, name: "Aarav", dept: "IT", salary: 75000, city: "Chennai" },
+  { empId: 2, name: "Bhavna", dept: "HR", salary: 52000, city: "Bengaluru" },
+  { empId: 3, name: "Chetan", dept: "Finance", salary: 65000, city: "Mumbai" },
+  { empId: 4, name: "Divya", dept: "IT", salary: 48000, city: "Chennai" },
+  { empId: 5, name: "Eshan", dept: "HR", salary: 80000, city: "Delhi" },
+  { empId: 6, name: "Farah", dept: "Finance", salary: 55000, city: "Bengaluru" },
+  { empId: 7, name: "Gaurav", dept: "Sales", salary: 42000, city: "Jaipur" },
+  { empId: 8, name: "Hina", dept: "IT", salary: 90000, city: "Pune" }
+]);
+
+db.employees.find({ salary: { $gt: 60000 } });
+
+db.employees.find({ salary: { $gte: 45000, $lte: 60000 } });
+
+db.employees.find({ dept: { $in: ["IT", "Finance"] } });
+
+db.employees.find({
+  $or: [
+    { city: "Chennai", salary: { $gt: 50000 } },
+    { dept: "HR" },
+    { salary: { $gt: 70000 } }
+  ]
+});
+
+db.employees.find({ city: { $nin: ["Chennai", "Bengaluru"] } });
+
+db.employees.find({ name: { $regex: /^[abc]/i } });
+
+db.employees.find(
+  {},
+  { _id: 0, name: 1, salary: 1 }
+)
+  .sort({ salary: -1 })
+  .skip(2)
+  .limit(3);
+
