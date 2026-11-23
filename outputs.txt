@@ -1,0 +1,232 @@
+
+OUTPUT SENERIO 1.2
+{
+  acknowledged: true,
+  insertedIds: {
+    '0': ObjectId('6b03c64efc7aa3abbab1068b'),
+    '1': ObjectId('6b03c64efc7aa3abbab1068c'),
+    '2': ObjectId('6b03c64efc7aa3abbab1068d'),
+    '3': ObjectId('6b03c64efc7aa3abbab1068e'),
+    '4': ObjectId('6b03c64efc7aa3abbab1068f'),
+    '5': ObjectId('6b03c64efc7aa3abbab10690'),
+    '6': ObjectId('6b03c64efc7aa3abbab10691'),
+    '7': ObjectId('6b03c64efc7aa3abbab10692')
+  }
+}
+
+[
+  {
+    _id: ObjectId('6b03c64efc7aa3abbab1068b'),
+    empId: 1,
+    name: 'Aarav',
+    dept: 'IT',
+    salary: 75000,
+    city: 'Chennai'
+  },
+  {
+    _id: ObjectId('6b03c64efc7aa3abbab1068d'),
+    empId: 3,
+    name: 'Chetan',
+    dept: 'Finance',
+    salary: 65000,
+    city: 'Mumbai'
+  },
+  {
+    _id: ObjectId('6b03c64efc7aa3abbab1068f'),
+    empId: 5,
+    name: 'Eshan',
+    dept: 'HR',
+    salary: 80000,
+    city: 'Delhi'
+  },
+  {
+    _id: ObjectId('6b03c64efc7aa3abbab10692'),
+    empId: 8,
+    name: 'Hina',
+    dept: 'IT',
+    salary: 90000,
+    city: 'Pune'
+  }
+]
+
+[
+  {
+    _id: ObjectId('6b03c64efc7aa3abbab1068c'),
+    empId: 2,
+    name: 'Bhavna',
+    dept: 'HR',
+    salary: 52000,
+    city: 'Bengaluru'
+  },
+  {
+    _id: ObjectId('6b03c64efc7aa3abbab1068e'),
+    empId: 4,
+    name: 'Divya',
+    dept: 'IT',
+    salary: 48000,
+    city: 'Chennai'
+  },
+  {
+    _id: ObjectId('6b03c64efc7aa3abbab10690'),
+    empId: 6,
+    name: 'Farah',
+    dept: 'Finance',
+    salary: 55000,
+    city: 'Bengaluru'
+  }
+]
+
+[
+  {
+    _id: ObjectId('6b03c64efc7aa3abbab1068b'),
+    empId: 1,
+    name: 'Aarav',
+    dept: 'IT',
+    salary: 75000,
+    city: 'Chennai'
+  },
+  {
+    _id: ObjectId('6b03c64efc7aa3abbab1068d'),
+    empId: 3,
+    name: 'Chetan',
+    dept: 'Finance',
+    salary: 65000,
+    city: 'Mumbai'
+  },
+  {
+    _id: ObjectId('6b03c64efc7aa3abbab1068e'),
+    empId: 4,
+    name: 'Divya',
+    dept: 'IT',
+    salary: 48000,
+    city: 'Chennai'
+  },
+  {
+    _id: ObjectId('6b03c64efc7aa3abbab10690'),
+    empId: 6,
+    name: 'Farah',
+    dept: 'Finance',
+    salary: 55000,
+    city: 'Bengaluru'
+  },
+  {
+    _id: ObjectId('6b03c64efc7aa3abbab10692'),
+    empId: 8,
+    name: 'Hina',
+    dept: 'IT',
+    salary: 90000,
+    city: 'Pune'
+  }
+]
+
+[
+  {
+    _id: ObjectId('6b03c64efc7aa3abbab1068b'),
+    empId: 1,
+    name: 'Aarav',
+    dept: 'IT',
+    salary: 75000,
+    city: 'Chennai'
+  },
+  {
+    _id: ObjectId('6b03c64efc7aa3abbab1068c'),
+    empId: 2,
+    name: 'Bhavna',
+    dept: 'HR',
+    salary: 52000,
+    city: 'Bengaluru'
+  },
+  {
+    _id: ObjectId('6b03c64efc7aa3abbab1068f'),
+    empId: 5,
+    name: 'Eshan',
+    dept: 'HR',
+    salary: 80000,
+    city: 'Delhi'
+  },
+  {
+    _id: ObjectId('6b03c64efc7aa3abbab10692'),
+    empId: 8,
+    name: 'Hina',
+    dept: 'IT',
+    salary: 90000,
+    city: 'Pune'
+  }
+]
+
+[
+  {
+    _id: ObjectId('6b03c64efc7aa3abbab1068d'),
+    empId: 3,
+    name: 'Chetan',
+    dept: 'Finance',
+    salary: 65000,
+    city: 'Mumbai'
+  },
+  {
+    _id: ObjectId('6b03c64efc7aa3abbab1068f'),
+    empId: 5,
+    name: 'Eshan',
+    dept: 'HR',
+    salary: 80000,
+    city: 'Delhi'
+  },
+  {
+    _id: ObjectId('6b03c64efc7aa3abbab10691'),
+    empId: 7,
+    name: 'Gaurav',
+    dept: 'Sales',
+    salary: 42000,
+    city: 'Jaipur'
+  },
+  {
+    _id: ObjectId('6b03c64efc7aa3abbab10692'),
+    empId: 8,
+    name: 'Hina',
+    dept: 'IT',
+    salary: 90000,
+    city: 'Pune'
+  }
+]
+
+[
+  {
+    _id: ObjectId('6b03c64efc7aa3abbab1068b'),
+    empId: 1,
+    name: 'Aarav',
+    dept: 'IT',
+    salary: 75000,
+    city: 'Chennai'
+  },
+  {
+    _id: ObjectId('6b03c64efc7aa3abbab1068c'),
+    empId: 2,
+    name: 'Bhavna',
+    dept: 'HR',
+    salary: 52000,
+    city: 'Bengaluru'
+  },
+  {
+    _id: ObjectId('6b03c64efc7aa3abbab1068d'),
+    empId: 3,
+    name: 'Chetan',
+    dept: 'Finance',
+    salary: 65000,
+    city: 'Mumbai'
+  }
+]
+
+[
+  { name: 'Aarav', salary: 75000 },
+  { name: 'Bhavna', salary: 52000 },
+  { name: 'Chetan', salary: 65000 },
+  { name: 'Divya', salary: 48000 },
+  { name: 'Eshan', salary: 80000 },
+  { name: 'Farah', salary: 55000 },
+  { name: 'Gaurav', salary: 42000 },
+  { name: 'Hina', salary: 90000 }
+]
+Invalid REPL keyword
+Invalid REPL keyword
+Invalid REPL keyword
+Ready
